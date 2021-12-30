@@ -15,6 +15,6 @@ public class Hcf {
             rem=number2%number1;
         }
         hcf=number1;
-        System.out.println("The HCF of "+number1+" and "+number2+" is: "+hcf);
+        System.out.println("The HCF is: "+hcf);
     }
 }
