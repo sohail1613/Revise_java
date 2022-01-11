@@ -9,7 +9,7 @@ public class Que1 {
         for (int i=2; i<n; i++){
             if (n%i==0){
                 System.out.println("Not a prime number: "+n);
-            } else{
+            } else {
                 System.out.println("prime number: "+n);
             }
             return;
