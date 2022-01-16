@@ -1,5 +1,5 @@
 //Print Pascal's triangle
-
+//https://www.geeksforgeeks.org/java-program-to-print-pascals-triangle/
 
 package com.company.Lecture6;
 
