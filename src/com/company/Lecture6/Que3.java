@@ -6,6 +6,7 @@ package com.company.Lecture6;
 public class Que3 {
     public static void main(String[] args) {
         int number=5;
+        Que3 g=new Que3();
 
         for (int i=1; i<=number; i++){
             //printing spaces
@@ -14,10 +15,16 @@ public class Que3 {
             }
 
             //printing numbers
-            for (int j=1; j<=number; j++){
-                System.out.print(i+" ");
+            for (int j=1; j<=i; j++){
+                System.out.print(" "+g.factorial(i)/(g.factorial(i-j)*g.factorial(j)));
             }
             System.out.println();
         }
+    }
+    public int factorial(int i){
+        if (i == 0)
+            return  1;
+        return i*factorial(i-1);
+
     }
 }
