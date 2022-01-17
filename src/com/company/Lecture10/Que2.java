@@ -3,8 +3,6 @@
 
 package com.company.Lecture10;
 
-import com.sun.jdi.IntegerType;
-
 import java.util.Scanner;
 
 public class Que2 {
