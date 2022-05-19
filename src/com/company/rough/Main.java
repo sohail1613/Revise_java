@@ -2,8 +2,8 @@ package com.company.rough;
 
 public class Main {
     public static void main(String[] args) {
-        Main obj = new Main();
-        obj.main();
+//        Main obj = new Main();
+//        obj.main();
 //        Test t = new Test();
 //        int r= 67;
 //        System.out.println(t.getAns());
@@ -36,11 +36,26 @@ public class Main {
 //        System.out.println("Before changing: "+rf.data);
 
 
-        Car c = new Car();
-        c.honk();
-    }
-    //we can also overload the main method
-    public static void main(){
-        System.out.println("Main method overloaded.");
-    }
+//        Car c = new Car();
+//        c.honk();
+
+        //creating object of staticExample
+//        StaticExample se= new StaticExample(23745, "Mustafa");
+//        StaticExample se1 = new StaticExample(2873, "Nedal");
+//        se.display();
+//        se1.display();
+//        //we can also change the company name if we want
+//        StaticExample.company = "Adari";
+//        se1.display(); //printing after changing
+
+        //Static count example
+        Counter c1 = new Counter();
+        Counter c2 = new Counter();
+        Counter c3 = new Counter();
+
+   }
+//    //we can also overload the main method
+//    public static void main(){
+//        System.out.println("Main method overloaded.");
+//    }
 }
