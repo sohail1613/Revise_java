@@ -30,7 +30,7 @@ public class Main {
 //        op.change(567);
 //        System.out.println("After changing: "+op.data);
 
-//        Refrence rf = new Refrence();
+//        Reference rf = new Reference();
 //        System.out.println("Before changing: "+rf.data);
 //        rf.change(rf);
 //        System.out.println("Before changing: "+rf.data);
