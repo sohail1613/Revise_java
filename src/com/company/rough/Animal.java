@@ -26,14 +26,12 @@ public class Animal {
     }
 
     //another constructor
-    protected   Animal(int age, String name, String habit){
+    protected Animal(int age, String name, String habit){
         this.age=age;
         this.name=name;
         this.habit = habit;
 
     }
-
-
     void eat(){
         System.out.println("Eating food...");
     }
