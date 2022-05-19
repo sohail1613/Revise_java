@@ -2,6 +2,8 @@ package com.company.rough;
 
 public class Main {
     public static void main(String[] args) {
+        Main obj = new Main();
+        obj.main();
 //        Test t = new Test();
 //        int r= 67;
 //        System.out.println(t.getAns());
@@ -33,7 +35,12 @@ public class Main {
 //        rf.change(rf);
 //        System.out.println("Before changing: "+rf.data);
 
+
         Car c = new Car();
         c.honk();
+    }
+    //we can also overload the main method
+    public static void main(){
+        System.out.println("Main method overloaded.");
     }
 }
