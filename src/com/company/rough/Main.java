@@ -49,9 +49,13 @@ public class Main {
 //        se1.display(); //printing after changing
 
         //Static count example
-        Counter c1 = new Counter();
-        Counter c2 = new Counter();
-        Counter c3 = new Counter();
+//        Counter c1 = new Counter();
+//        Counter c2 = new Counter();
+//        Counter c3 = new Counter();
+//        System.out.println("HelloWorld");
+//        ExecuteBeforeMain em = new ExecuteBeforeMain();
+//        ExecuteBeforeMain em1 = new ExecuteBeforeMain();
+//        ExecuteBeforeMain em2 = new ExecuteBeforeMain();
 
    }
 //    //we can also overload the main method
