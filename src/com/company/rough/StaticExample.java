@@ -1,7 +1,7 @@
 package com.company.rough;
 
 public class StaticExample {
-     int empId;//Instance variable
+    int empId;//Instance variable
     String name;
     static String company = "Ansar"; //static variable
 
