@@ -23,7 +23,7 @@ public class Company {
 class Demo{
     public static void main(String[] args) {
         Company c = new Company();
-//        c.empId=232; //its not right way to access directly , we should access using getters and setters method
+//        c.empId=321; //its not right way to access directly , we should access using getters and setters method
 //        c.name = "Adari";
 
         c.setEmpId(123); //to set value
