@@ -26,7 +26,7 @@ public class InnerExample {
         //to use inner class object we need to specify the inner class object
         //Outer.Inner in = obj.new Inner();
 
-        //in case if class is also static then we n don't need to specify outer cass object
+        //in case if class is also static then we don't need to specify outer cass object
         Outer.Inner in = new Outer.Inner();
         in.display();
     }

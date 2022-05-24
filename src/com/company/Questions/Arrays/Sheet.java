@@ -26,4 +26,15 @@ public class Sheet {
         }
         return false;
     }
+
+    //https://leetcode.com/problems/remove-duplicates-from-sorted-array/
+    public int removeDuplicates(int[] array){
+        int count= 0;
+        for (int a : array){
+            if (count == 0 || a > array[count-1]){
+                array[count++] = a;
+            }
+        }
+        return count;
+    }
 }
