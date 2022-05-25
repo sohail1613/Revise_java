@@ -1,6 +1,8 @@
 package com.company.Questions.Arrays;
 
+import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.List;
 
 public class Sheet {
     public int subArrayMaximum(int[] array){
@@ -63,5 +65,40 @@ public class Sheet {
         public void reverse(int[] nums, int i, int j){
             while(i < j)
                 swap(nums, i++, j--);
+    }
+
+    //https://leetcode.com/problems/spiral-matrix/
+    //https://www.youtube.com/watch?v=1ZGJzvkcLsA&ab_channel=TECHDOSE
+    public List<Integer> spiralOrder(int[][] matrix){
+        int top = 0, left = 0, direction = 0;
+        int bottom = matrix.length-1, right = matrix[0].length-1;
+        int i;
+        List<Integer> spiral = new ArrayList<Integer>();
+
+        if (matrix.length == 0){
+            return spiral;
+        }
+
+        while(top <= bottom && left <= right){
+            if (direction == 0){ //traverse right
+                for (i = top; i<= right; i++)
+                    spiral.add(matrix[top][i]);
+                top++;
+            } else if (direction == 1) { //traverse down
+                for (i=top; i<=bottom; i++)
+                    spiral.add(matrix[i][right]);
+                right--;
+            } else if (direction == 2) { //traverse left
+                for (i=right; i>=left; i--)
+                    spiral.add(matrix[bottom][i]);
+                bottom--;
+            } else if (direction == 3) { //traverse up
+                for (i=bottom; i>= top; i--)
+                    spiral.add(matrix[i][left]);
+                left++;
+            }
+            direction = (direction+1)%4;
+        }
+        return spiral;
     }
 }

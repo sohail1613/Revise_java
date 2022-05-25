@@ -2,6 +2,8 @@ package com.company.Questions;
 //https://docs.google.com/spreadsheets/d/1hXserPuxVoWMG9Hs7y8wVdRCJTcj3xMBAEYUOXQ5Xag/edit#gid=0
 import com.company.Questions.Arrays.Sheet;
 
+import java.util.Arrays;
+
 public class Main {
     public static void main(String[] args) {
         Sheet s = new Sheet();
@@ -18,5 +20,9 @@ public class Main {
         //Next permutation (31.leetCode)
 //        int[] nums = {1, 2, 3};
 //        System.out.println(s.nextPermutation(nums));
+
+        //rotated matrix
+        int[][] matrix = {{1,2,3},{4,5,6},{7,8,9}};
+        System.out.println(s.spiralOrder(matrix));
     }
 }
