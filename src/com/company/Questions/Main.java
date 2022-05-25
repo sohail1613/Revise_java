@@ -12,7 +12,11 @@ public class Main {
 //        int[] array = {1, 2, 3, 4, 5, 6, 1};
 //        System.out.println(s.containsDuplicate(array));
 
-        int[] array = {1, 1, 1, 2, 3, 3, 5};
-        System.out.println(s.removeDuplicates(array));
+//        int[] array = {1, 1, 1, 2, 3, 3, 5};
+//        System.out.println(s.removeDuplicates(array));
+
+        //Next permutation (31.leetCode)
+//        int[] nums = {1, 2, 3};
+//        System.out.println(s.nextPermutation(nums));
     }
 }
