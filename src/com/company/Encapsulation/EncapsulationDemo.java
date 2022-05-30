@@ -22,7 +22,7 @@ class Student{
     }
 }
 
-public class EncapsulationDemo {
+ public class EncapsulationDemo {
     public static void main(String[] args){
         Student s = new Student();
 //        s.rollNo = 12334; // its not right way to directly access

@@ -1,2 +1,3 @@
-package com.company.Exceptions;public class UserDefindException {
+package com.company.Exceptions;
+class UserDefindException {
 }
