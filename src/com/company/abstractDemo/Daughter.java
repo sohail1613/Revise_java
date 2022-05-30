@@ -11,7 +11,7 @@ public class Daughter {
     public void sorting() {
 //        int max = arr[0];
         for (int i = 1; i < arr.length; i++) {
-            int max = ;
+            int max = 0;
             int lastPosition = arr.length - i;
             for (int j = 1; j <= lastPosition; j++) {
                 if (max <= arr[j]){
@@ -24,7 +24,7 @@ public class Daughter {
 
     public void swap(int max, int j){
         int temp = max;
-        arr[j] = max
+        arr[j] = max;
     }
 
 
@@ -32,7 +32,7 @@ public class Daughter {
 
         void career() {
             System.out.println("hello");
-            encapsulationDemo.main(new String[]{"hello"});
+//            encapsulationDemo.main(new String[]{"hello"});
         }
 
         @Override
