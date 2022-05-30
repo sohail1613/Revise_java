@@ -22,7 +22,11 @@ public class Main {
 //        System.out.println(s.nextPermutation(nums));
 
         //rotated matrix
-        int[][] matrix = {{1,2,3},{4,5,6},{7,8,9}};
-        System.out.println(s.spiralOrder(matrix));
+//        int[][] matrix = {{1,2,3},{4,5,6},{7,8,9}};
+//        System.out.println(s.spiralOrder(matrix));
+
+        //https://leetcode.com/problems/spiral-matrix-ii/
+//        int num = 3;
+//        System.out.println(s.generateMatrix(num));
     }
 }
