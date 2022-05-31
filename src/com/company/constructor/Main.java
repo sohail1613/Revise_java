@@ -7,14 +7,17 @@ public class Main {
 //        Student s1 = new Student(2734, "Ansari", "CSE", 71253.3f);
 //        s.display();
 //        s1.display();
+
+        Student std = new Student();
 //        String name = "zaid";
 //        name = "sohail";
 
 //        new Fifth().a().msg(); //syntax for invoking class instance
 
-        ReferenceId rf = new ReferenceId();
-        System.out.println(rf); //printing same reference if
-        rf.m(); //printing same reference if
+//        ReferenceId rf = new ReferenceId();
+//        System.out.println(rf); //printing same reference if
+//        rf.m(); //printing same reference if
+
     }
 
 

@@ -5,7 +5,10 @@ public class Student {
     String name, department;
     float fees;
 
-    Student(int rollNo, String name, float fees){
+    Student(){//default or non parameterized constructor.
+        System.out.println("Non-parameterized constructor");
+    }
+    Student(int rollNo, String name, float fees){ //parameterized constructor
         this.rollNo = rollNo;
         this.name = name;
         this.fees = fees;
