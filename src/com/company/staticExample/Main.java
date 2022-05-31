@@ -11,8 +11,8 @@ public class Main {
         //do not access static variables with object reference instead use class name.
 //        System.out.println(human1.population);
 //        System.out.println(human2.population);
-        System.out.println(Human.population);
+//        System.out.println(Human.population);
         //System.out.println(Human.population);
-        
+
     }
 }
