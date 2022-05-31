@@ -22,4 +22,6 @@ public class Student {
     public void display(){
         System.out.println(rollNo+" "+name+" "+department+" "+fees);
     }
+
+
 }

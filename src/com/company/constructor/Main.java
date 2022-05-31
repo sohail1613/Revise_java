@@ -7,6 +7,10 @@ public class Main {
         Student s1 = new Student(2734, "Ansari", "CSE", 71253.3f);
         s.display();
         s1.display();
+        String name = "zaid";
+        name = "sohail";
 
     }
+
+
 }
