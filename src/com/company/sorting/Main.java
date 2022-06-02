@@ -8,5 +8,10 @@ public class Main {
 //        int[] arr = {5, 4, 7, 8, 2, -98, 0};
 //        selection.selectionSort(arr);
 //        System.out.println(Arrays.toString(arr));
+
+//        InsertionSort insertion = new InsertionSort();
+//        int[] arr = {5, 4, 7, 8, 2, -98, 0};
+//        insertion.insertionSort(arr);
+//        System.out.println(Arrays.toString(arr));
     }
 }
