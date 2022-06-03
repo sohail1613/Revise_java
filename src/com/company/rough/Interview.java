@@ -5,7 +5,7 @@ import java.util.Collections;
 
 class Interview{
     public static int kthSmallest(Integer[] arr, int k){
-        Arrays.sort(arr);
+        Arrays.sort(arr); //sorting array
         return arr[k-1];
     }
 
