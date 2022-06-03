@@ -14,7 +14,7 @@ public class Interview5{
         for (int i = 0; i < n; i++) {
 
             // Skip this element if already counted
-            if (visited[i] == true)
+            if (visited[i]) //or if (visited[i] == true)
                 continue;
 
             // Count occurrence
@@ -31,7 +31,7 @@ public class Interview5{
 
     public static void main(String []args)
     {
-        int arr[] = new int[]{ 1, 2, 2, 4, 4, 4, 3,2, 3, 6 };
+        int arr[] = new int[]{ 1, 2, 2, 4, 4, 4, 3, 2, 3, 6};
         int n = arr.length;
         countFreq(arr, n);
     }
