@@ -44,18 +44,15 @@ public class GridProduct {
         public int diagonalProduct(int[][] grid){
             int i = 0;
             int product = 0;
-            int temp;
             while(i <= grid.length - 4){ //this while loop deals with columns
                 for (int j = 0; j < grid.length - 4; ++j){ //right diagonal
-                    temp = grid[i][j] * grid[i+1][j+1] * grid[i+2][j+2] * grid[i+3][j+3];
-                    if(temp >= product){
-                        product = temp;
+                    if(grid[i][j] * grid[i+1][j+1] * grid[i+2][j+2] * grid[i+3][j+3] >= product){
+                        product = grid[i][j] * grid[i+1][j+1] * grid[i+2][j+2] * grid[i+3][j+3];
                     }
                 }
                 for(int j = 3; j < grid.length; ++j){ //left diagonal
-                    temp = grid[i][j] * grid[i+1][j-1] * grid[i+2][j-2] * grid[i+3][j-3];
-                    if(temp >= product){
-                        product = temp;
+                    if(grid[i][j] * grid[i+1][j-1] * grid[i+2][j-2] * grid[i+3][j-3] >= product){
+                        product = grid[i][j] * grid[i+1][j-1] * grid[i+2][j-2] * grid[i+3][j-3];
                     }
                 }
                 ++i;
