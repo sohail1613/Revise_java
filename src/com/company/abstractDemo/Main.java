@@ -5,16 +5,12 @@ public class Main {
 //        Son s = new Son(26);
 //        s.career();
 //        s.city();
-        Daughter daughter = new Daughter();
-        daughter.parent.career();
+//        Daughter daughter = new Daughter();
+//        daughter.parent.career();
 
 //        Daughter d= new Daughter(24);
 //        d.career();
 //        d.city();
+
     }
-
-//    public static void main(String dost) {
-//
-//    }
-
 }
