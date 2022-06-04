@@ -11,6 +11,7 @@ public class Main {
 //        Daughter d= new Daughter(24);
 //        d.career();
 //        d.city();
-
+        AbstractExample ex = new Example();
+        System.out.println(ex.multiply(5));
     }
 }
