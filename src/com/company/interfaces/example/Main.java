@@ -10,10 +10,12 @@ public class Main {
 //        Media carMedia = new Car();
 //        carMedia.stop();
 
-        NiceCar car = new NiceCar();
-        car.start();
-        car.startMusic();
-        car.upgradeEngine();
-        car.start();
+//        NiceCar car = new NiceCar();
+//        car.start();
+//        car.startMusic();
+//        car.upgradeEngine();
+//        car.start();
+
+        
     }
 }
