@@ -1,0 +1,11 @@
+package com.company.examples;
+
+
+import com.company.examples.clock.Window;
+
+public class Main {
+    public static void main(String[] args) {
+        Window w = new Window();
+
+    }
+}
