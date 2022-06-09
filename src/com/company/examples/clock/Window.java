@@ -30,18 +30,18 @@ public class Window extends JFrame {
         this.setLayout(new GridLayout(2, 1));
         this.add(heading);
         this.add(clockLabel);
-        
     }
 
     public void clockStart(){
         Timer timer = new Timer(1000, new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-//                String dateTime = new Date(2022).toString();
 
-                Date d = new Date(189);
-                SimpleDateFormat sdf = new SimpleDateFormat("hh : mm : ss");
-                String dateTime = sdf.format(d);
+                long millis = System.currentTimeMillis();
+                Date date = new Date(millis);
+                System.out.println(date);
+                SimpleDateFormat simpleDateFormat = new SimpleDateFormat("hh : mm : ss");
+                String dateTime = simpleDateFormat.format(date);
                 clockLabel.setText(dateTime);
             }
         });
